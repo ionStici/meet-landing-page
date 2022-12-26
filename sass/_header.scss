@@ -1,0 +1,58 @@
+.header {
+    width: 144rem;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 31.4rem;
+
+    &__logo {
+        margin: 8rem 0 6.1rem 0;
+    }
+
+    &__wrapper {
+        display: grid;
+        grid-template-columns: 1fr 54rem 1fr;
+        justify-content: center;
+    }
+
+    &__img-left {
+        margin-left: -3.2rem;
+        margin-right: auto;
+    }
+
+    &__img-right {
+        margin-right: -3.2rem;
+        margin-left: auto;
+    }
+
+    &__content-wrapper {
+        padding-top: 4.7rem;
+    }
+
+    &__h1 {
+        font-size: 6.4rem;
+        font-weight: 900;
+        line-height: 6.4rem;
+        margin-bottom: 3.4rem;
+        color: #28283d;
+
+        span {
+            display: block;
+        }
+    }
+
+    &__text {
+        color: #87879d;
+        font-size: 1.8rem;
+        line-height: 2.6rem;
+        font-weight: 500;
+        margin-bottom: 3.2rem;
+    }
+
+    &__btns-wrapper {
+        margin-bottom: 1rem;
+    }
+
+    &__btns-wrapper .btn--green {
+        margin-right: 1.6rem;
+    }
+}
