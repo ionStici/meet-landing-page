@@ -1,0 +1,45 @@
+.btn {
+    font-family: "Red Hat Display", sans-serif;
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 900;
+    letter-spacing: 0.05rem;
+    padding: 1.6rem 2.9rem;
+
+    border: none;
+    border-radius: 50rem;
+    cursor: pointer;
+    transition: background-color 0.15s, transform 0.15s;
+
+    &:active {
+        transform: scale(0.95);
+    }
+
+    &--green {
+        background-color: #4d96a9;
+
+        &:hover {
+            background-color: #71c0d4;
+        }
+    }
+
+    &--purple {
+        background-color: #855fb1;
+
+        &:hover {
+            background-color: #b18bdd;
+        }
+    }
+
+    &--big {
+        padding: 1.6rem 4rem;
+    }
+
+    &--v {
+        color: #8fe3f9;
+    }
+
+    &--g {
+        color: #d9b8ff;
+    }
+}
