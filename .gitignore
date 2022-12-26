@@ -1,0 +1,10 @@
+*.sketch
+*.fig
+*.xd
+
+.DS_Store
+.prettierignore
+.prettierrc
+
+node_modules
+style.css.map
