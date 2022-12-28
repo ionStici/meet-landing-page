@@ -31,6 +31,11 @@ body {
 .main {
   margin: 0 24px;
 }
+@media only screen and (min-width: 768px) {
+  .main {
+    margin: 0 40px;
+  }
+}
 
 .btn {
   color: #fff;
@@ -97,10 +102,20 @@ body {
   text-align: center;
   margin-bottom: 148px;
 }
+@media only screen and (min-width: 768px) {
+  .header {
+    margin-bottom: 164px;
+  }
+}
 .header__logo-wrapper {
   margin-top: 48px;
   margin-bottom: 54px;
   height: 28px;
+}
+@media only screen and (min-width: 500px) {
+  .header__logo-wrapper {
+    margin-bottom: 64px;
+  }
 }
 .header__img-wrapper {
   position: relative;
@@ -110,12 +125,29 @@ body {
   display: flex;
   margin-bottom: 48px;
 }
+@media only screen and (min-width: 500px) {
+  .header__img-wrapper {
+    margin-bottom: 72px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .header__img-wrapper {
+    width: 768px;
+    height: 303px;
+  }
+}
 .header__img-left, .header__img-right {
   height: 100%;
 }
 .header__img-left {
   margin-left: -19.5px;
   margin-right: 15px;
+}
+@media only screen and (min-width: 768px) {
+  .header__img-left {
+    margin-right: 25px;
+    margin-left: -23px;
+  }
 }
 .header__h1 {
   width: 327px;
@@ -127,6 +159,13 @@ body {
   line-height: 44px;
   color: #28283d;
 }
+@media only screen and (min-width: 768px) {
+  .header__h1 {
+    width: 350px;
+    font-size: 48px;
+    line-height: 48px;
+  }
+}
 .header__text {
   width: 327px;
   margin: 0 auto;
@@ -135,6 +174,11 @@ body {
   line-height: 26px;
   color: #87879d;
 }
+@media only screen and (min-width: 768px) {
+  .header__text {
+    width: 457px;
+  }
+}
 .header__btns-wrapper {
   margin-top: 32px;
   display: flex;
@@ -142,9 +186,23 @@ body {
   align-items: center;
   gap: 16px;
 }
+@media only screen and (min-width: 500px) {
+  .header__btns-wrapper {
+    justify-content: center;
+    flex-direction: row;
+    align-items: revert;
+  }
+}
 
 .demo {
   margin-bottom: 176px;
+}
+@media only screen and (min-width: 768px) {
+  .demo {
+    margin: 0 auto;
+    margin-bottom: 192px;
+    width: 689px;
+  }
 }
 .demo__img-wrapper {
   margin: 64px auto;
@@ -155,15 +213,37 @@ body {
   column-gap: 25px;
   row-gap: 24px;
 }
+@media only screen and (min-width: 768px) {
+  .demo__img-wrapper {
+    width: revert;
+    margin: 67px auto 48px auto;
+    grid-template-rows: revert;
+    row-gap: revert;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 11px;
+    justify-items: center;
+  }
+}
 .demo__img {
   width: 151px;
   height: 143px;
   border-radius: 8px;
 }
+@media only screen and (min-width: 768px) {
+  .demo__img {
+    width: 164px;
+    height: 156px;
+  }
+}
 .demo__text-wrapper {
   text-align: center;
   width: 327px;
   margin: 0 auto;
+}
+@media only screen and (min-width: 768px) {
+  .demo__text-wrapper {
+    width: 573px;
+  }
 }
 .demo__up-heading {
   color: #4d96a9;
@@ -178,6 +258,13 @@ body {
   line-height: 36px;
   color: #28283d;
   margin-bottom: 32px;
+}
+@media only screen and (min-width: 768px) {
+  .demo__h2 {
+    line-height: 44px;
+    font-size: 40px;
+    margin: 0 64px 32px 64px;
+  }
 }
 .demo__text {
   font-size: 16px;
@@ -194,6 +281,12 @@ body {
   padding: 92px 24px 72px 24px;
   text-align: center;
 }
+@media only screen and (min-width: 768px) {
+  .footer {
+    background-image: linear-gradient(rgba(77, 150, 169, 0.85), rgba(77, 150, 169, 0.85)), url(./assets/tablet/image-footer.jpg);
+    padding: 92px 24px 66px 24px;
+  }
+}
 .footer__num {
   position: absolute;
   top: -28px;
@@ -205,17 +298,34 @@ body {
   margin: 0 auto;
   color: #fafafa;
 }
+@media only screen and (min-width: 768px) {
+  .footer__content-wrapper {
+    width: 573px;
+  }
+}
 .footer__h2 {
   font-weight: 900;
   font-size: 32px;
   line-height: 36px;
   margin-bottom: 24px;
 }
+@media only screen and (min-width: 768px) {
+  .footer__h2 {
+    font-size: 40px;
+    line-height: 44px;
+    margin: 0 50px 32px 50px;
+  }
+}
 .footer__text {
   font-weight: 500;
   font-size: 18px;
   line-height: 26px;
   margin-bottom: 32px;
+}
+@media only screen and (min-width: 768px) {
+  .footer__text {
+    margin-bottom: 40px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

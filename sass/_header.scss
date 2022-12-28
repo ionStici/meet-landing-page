@@ -2,14 +2,19 @@
     text-align: center;
     margin-bottom: 148px;
 
+    @media only screen and (min-width: 768px) {
+        margin-bottom: 164px;
+    }
+
     // LOGO
     &__logo-wrapper {
         margin-top: 48px;
         margin-bottom: 54px;
         height: 28px;
-    }
 
-    &__logo {
+        @media only screen and (min-width: 500px) {
+            margin-bottom: 64px;
+        }
     }
 
     // IMAGES
@@ -20,6 +25,15 @@
         height: 153px;
         display: flex;
         margin-bottom: 48px;
+
+        @media only screen and (min-width: 500px) {
+            margin-bottom: 72px;
+        }
+
+        @media only screen and (min-width: 768px) {
+            width: 768px;
+            height: 303px;
+        }
     }
 
     &__img-left,
@@ -30,6 +44,11 @@
     &__img-left {
         margin-left: -19.5px;
         margin-right: 15px;
+
+        @media only screen and (min-width: 768px) {
+            margin-right: 25px;
+            margin-left: -23px;
+        }
     }
 
     &__img-right {
@@ -49,6 +68,12 @@
         font-size: 40px;
         line-height: 44px;
         color: #28283d;
+
+        @media only screen and (min-width: 768px) {
+            width: 350px;
+            font-size: 48px;
+            line-height: 48px;
+        }
     }
 
     &__text {
@@ -59,6 +84,10 @@
         font-weight: 500;
         line-height: 26px;
         color: #87879d;
+
+        @media only screen and (min-width: 768px) {
+            width: 457px;
+        }
     }
 
     // BTN BOX
@@ -68,5 +97,11 @@
         flex-direction: column;
         align-items: center;
         gap: 16px;
+
+        @media only screen and (min-width: 500px) {
+            justify-content: center;
+            flex-direction: row;
+            align-items: revert;
+        }
     }
 }
