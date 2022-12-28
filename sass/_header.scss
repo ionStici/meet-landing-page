@@ -15,6 +15,11 @@
         @media only screen and (min-width: 500px) {
             margin-bottom: 64px;
         }
+
+        @media only screen and (min-width: 1300px) {
+            margin-top: 80px;
+            margin-bottom: 61px;
+        }
     }
 
     // IMAGES
@@ -34,11 +39,23 @@
             width: 768px;
             height: 303px;
         }
+
+        @media only screen and (min-width: 1440px) {
+            width: 1440px;
+            margin: 0 auto;
+            height: revert;
+            display: revert;
+        }
     }
 
     &__img-left,
     &__img-right {
         height: 100%;
+
+        @media only screen and (min-width: 1440px) {
+            position: absolute;
+            height: 303px;
+        }
     }
 
     &__img-left {
@@ -49,13 +66,27 @@
             margin-right: 25px;
             margin-left: -23px;
         }
+
+        @media only screen and (min-width: 1440px) {
+            left: 0;
+            margin-left: -32px;
+        }
     }
 
     &__img-right {
+        @media only screen and (min-width: 1440px) {
+            right: 0;
+            margin-right: -32px;
+        }
     }
 
     // TEXT
     &__content-wrapper {
+        @media only screen and (min-width: 1300px) {
+            padding-top: 47px;
+            width: 540px;
+            margin: 0 auto;
+        }
     }
 
     &__h1 {
@@ -74,6 +105,15 @@
             font-size: 48px;
             line-height: 48px;
         }
+
+        @media only screen and (min-width: 1300px) {
+            margin-left: 20px;
+            margin-right: 20px;
+            width: revert;
+            margin-bottom: 34px;
+            font-size: 64px;
+            line-height: 64px;
+        }
     }
 
     &__text {
@@ -87,6 +127,11 @@
 
         @media only screen and (min-width: 768px) {
             width: 457px;
+        }
+
+        @media only screen and (min-width: 1300px) {
+            width: revert;
+            font-size: 18px;
         }
     }
 
@@ -102,6 +147,10 @@
             justify-content: center;
             flex-direction: row;
             align-items: revert;
+        }
+
+        @media only screen and (min-width: 1300px) {
+            padding-bottom: 7px;
         }
     }
 }

@@ -117,6 +117,12 @@ body {
     margin-bottom: 64px;
   }
 }
+@media only screen and (min-width: 1300px) {
+  .header__logo-wrapper {
+    margin-top: 80px;
+    margin-bottom: 61px;
+  }
+}
 .header__img-wrapper {
   position: relative;
   margin: 0 auto;
@@ -136,8 +142,22 @@ body {
     height: 303px;
   }
 }
+@media only screen and (min-width: 1440px) {
+  .header__img-wrapper {
+    width: 1440px;
+    margin: 0 auto;
+    height: revert;
+    display: revert;
+  }
+}
 .header__img-left, .header__img-right {
   height: 100%;
+}
+@media only screen and (min-width: 1440px) {
+  .header__img-left, .header__img-right {
+    position: absolute;
+    height: 303px;
+  }
 }
 .header__img-left {
   margin-left: -19.5px;
@@ -147,6 +167,25 @@ body {
   .header__img-left {
     margin-right: 25px;
     margin-left: -23px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .header__img-left {
+    left: 0;
+    margin-left: -32px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .header__img-right {
+    right: 0;
+    margin-right: -32px;
+  }
+}
+@media only screen and (min-width: 1300px) {
+  .header__content-wrapper {
+    padding-top: 47px;
+    width: 540px;
+    margin: 0 auto;
   }
 }
 .header__h1 {
@@ -166,6 +205,16 @@ body {
     line-height: 48px;
   }
 }
+@media only screen and (min-width: 1300px) {
+  .header__h1 {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: revert;
+    margin-bottom: 34px;
+    font-size: 64px;
+    line-height: 64px;
+  }
+}
 .header__text {
   width: 327px;
   margin: 0 auto;
@@ -177,6 +226,12 @@ body {
 @media only screen and (min-width: 768px) {
   .header__text {
     width: 457px;
+  }
+}
+@media only screen and (min-width: 1300px) {
+  .header__text {
+    width: revert;
+    font-size: 18px;
   }
 }
 .header__btns-wrapper {
@@ -193,6 +248,11 @@ body {
     align-items: revert;
   }
 }
+@media only screen and (min-width: 1300px) {
+  .header__btns-wrapper {
+    padding-bottom: 7px;
+  }
+}
 
 .demo {
   margin-bottom: 176px;
@@ -202,6 +262,12 @@ body {
     margin: 0 auto;
     margin-bottom: 192px;
     width: 689px;
+  }
+}
+@media only screen and (min-width: 1300px) {
+  .demo {
+    width: 1110px;
+    margin-bottom: 184px;
   }
 }
 .demo__img-wrapper {
@@ -224,6 +290,12 @@ body {
     justify-items: center;
   }
 }
+@media only screen and (min-width: 1300px) {
+  .demo__img-wrapper {
+    column-gap: 30px;
+    margin: 64px auto 80px auto;
+  }
+}
 .demo__img {
   width: 151px;
   height: 143px;
@@ -233,6 +305,12 @@ body {
   .demo__img {
     width: 164px;
     height: 156px;
+  }
+}
+@media only screen and (min-width: 1300px) {
+  .demo__img {
+    width: 255px;
+    height: 242px;
   }
 }
 .demo__text-wrapper {
@@ -251,6 +329,11 @@ body {
   font-weight: 900;
   letter-spacing: 4px;
   margin-bottom: 24px;
+}
+@media only screen and (min-width: 768px) {
+  .demo__up-heading {
+    margin-bottom: 16px;
+  }
 }
 .demo__h2 {
   font-weight: 900;
@@ -272,6 +355,11 @@ body {
   line-height: 26px;
   color: #87879d;
 }
+@media only screen and (min-width: 1300px) {
+  .demo__text {
+    padding: 0 60px;
+  }
+}
 
 .footer {
   position: relative;
@@ -285,6 +373,13 @@ body {
   .footer {
     background-image: linear-gradient(rgba(77, 150, 169, 0.85), rgba(77, 150, 169, 0.85)), url(./assets/tablet/image-footer.jpg);
     padding: 92px 24px 66px 24px;
+  }
+}
+@media only screen and (min-width: 1300px) {
+  .footer {
+    text-align: left;
+    background-image: linear-gradient(rgba(77, 150, 169, 0.85), rgba(77, 150, 169, 0.85)), url(./assets/desktop/image-footer.jpg);
+    padding: 116px 165px 104px 165px;
   }
 }
 .footer__num {
@@ -303,6 +398,19 @@ body {
     width: 573px;
   }
 }
+@media only screen and (min-width: 1300px) {
+  .footer__content-wrapper {
+    width: revert;
+    display: flex;
+    align-items: center;
+  }
+  .footer__content-wrapper .btn {
+    display: flex;
+    gap: 6px;
+    align-self: center;
+    margin-left: auto;
+  }
+}
 .footer__h2 {
   font-weight: 900;
   font-size: 32px;
@@ -316,6 +424,13 @@ body {
     margin: 0 50px 32px 50px;
   }
 }
+@media only screen and (min-width: 1300px) {
+  .footer__h2 {
+    width: 350px;
+    margin: 0;
+    margin-right: 125px;
+  }
+}
 .footer__text {
   font-weight: 500;
   font-size: 18px;
@@ -324,7 +439,14 @@ body {
 }
 @media only screen and (min-width: 768px) {
   .footer__text {
+    margin-left: 0;
     margin-bottom: 40px;
+  }
+}
+@media only screen and (min-width: 1300px) {
+  .footer__text {
+    margin: 0;
+    width: 350px;
   }
 }
 
