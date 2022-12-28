@@ -1,0 +1,72 @@
+.header {
+    text-align: center;
+    margin-bottom: 148px;
+
+    // LOGO
+    &__logo-wrapper {
+        margin-top: 48px;
+        margin-bottom: 54px;
+        height: 28px;
+    }
+
+    &__logo {
+    }
+
+    // IMAGES
+    &__img-wrapper {
+        position: relative;
+        margin: 0 auto;
+        width: 375px;
+        height: 153px;
+        display: flex;
+        margin-bottom: 48px;
+    }
+
+    &__img-left,
+    &__img-right {
+        height: 100%;
+    }
+
+    &__img-left {
+        margin-left: -19.5px;
+        margin-right: 15px;
+    }
+
+    &__img-right {
+    }
+
+    // TEXT
+    &__content-wrapper {
+    }
+
+    &__h1 {
+        width: 327px;
+        margin: 0 auto;
+        padding: 0 20px;
+        margin-bottom: 24px;
+
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 44px;
+        color: #28283d;
+    }
+
+    &__text {
+        width: 327px;
+        margin: 0 auto;
+
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 26px;
+        color: #87879d;
+    }
+
+    // BTN BOX
+    &__btns-wrapper {
+        margin-top: 32px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+    }
+}

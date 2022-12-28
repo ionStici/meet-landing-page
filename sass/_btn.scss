@@ -1,0 +1,46 @@
+.btn {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 900;
+    letter-spacing: 0.5px;
+    padding: 16px 29px;
+
+    border: none;
+    border-radius: 50px;
+
+    cursor: pointer;
+    transition: background-color 0.15s, transform 0.15s;
+
+    &:active {
+        transform: scale(0.95);
+    }
+
+    &--green {
+        background-color: #4d96a9;
+
+        &:hover {
+            background-color: #71c0d4;
+        }
+    }
+
+    &--purple {
+        background-color: #855fb1;
+
+        &:hover {
+            background-color: #b18bdd;
+        }
+    }
+
+    &--big {
+        padding: 16px 40px;
+    }
+
+    &--v {
+        color: #8fe3f9;
+        margin-left: 5px;
+    }
+
+    &--g {
+        color: #d9b8ff;
+    }
+}
