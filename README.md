@@ -11,7 +11,7 @@ This is a solution to the [Meet landing page challenge on Frontend Mentor](https
 
 ## Screenshot
 
-![](./screenshot)
+![](./assets/screenshot.jpeg)
 
 ## Links
 
@@ -25,6 +25,8 @@ This is a solution to the [Meet landing page challenge on Frontend Mentor](https
 -   Flexbox and CSS Grid
 
 ## What I learned
+
+Using the mobile-first approach for the first time! It feels like you have better control over the layout.
 
 ## Author
 
