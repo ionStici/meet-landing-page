@@ -186,4 +186,36 @@ body {
   color: #87879d;
 }
 
+.footer {
+  position: relative;
+  background-image: linear-gradient(rgba(77, 150, 169, 0.85), rgba(77, 150, 169, 0.85)), url(./assets/mobile/image-footer.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 92px 24px 72px 24px;
+  text-align: center;
+}
+.footer__num {
+  position: absolute;
+  top: -28px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.footer__content-wrapper {
+  width: 327px;
+  margin: 0 auto;
+  color: #fafafa;
+}
+.footer__h2 {
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  margin-bottom: 24px;
+}
+.footer__text {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  margin-bottom: 32px;
+}
+
 /*# sourceMappingURL=style.css.map */
