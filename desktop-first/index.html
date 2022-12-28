@@ -9,40 +9,50 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     
-    <title>Meet landing page</title>
+    <title>Frontend Mentor | Meet landing page</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+
+
 
     <header class="header">
 
         <div class="header__logo-wrapper">
             <img class="header__logo" src="./assets/logo.svg" alt="Logo">
         </div>
-        
+
         <div class="header__wrapper">
-            <div class="header__img-wrapper">
-                <img class="header__img-left" src="./assets/desktop/image-hero-left.png" alt="Happy People">
-                <img class="header__img-right" src="./assets/desktop/image-hero-right.png" alt="Happy People">
-            </div>
+            <img class="header__img-left" src="./assets/desktop/image-hero-left.png" alt="Happy People">
             
             <div class="header__content-wrapper">
-                <h1 class="header__h1">Group Chat for Everyone</h1>
+                <h1 class="header__h1">
+                    <span>Group Chat</span>
+                    <span>for Everyone</span>
+                </h1>
+                
                 <p class="header__text">Meet makes it easy to connect with others face-to-face virtually and collaborate across any device.</p>
                 
                 <div class="header__btns-wrapper">
-                    <button class="btn btn--green btn--big"><span>Download</span><span class="btn--v">v1.3</span></button>
+                    <button class="btn btn--green btn--big">
+                        <span>Download</span>
+                        <span class="btn--v">v1.3</span>
+                    </button>
                     <button class="btn btn--purple">What is it?</button>
                 </div>
             </div>
+            
+            <img class="header__img-right" src="./assets/desktop/image-hero-right.png" alt="Happy People">
         </div>
 
     </header>
 
+
+
     <main class="main">
         <section class="demo">
 
-            <p class="num">01</p>
+            <p class="demo__num">01</p>
 
             <div class="demo__img-wrapper">
                 <img class="demo__img" src="./assets/desktop/image-woman-in-videocall.jpg" alt="Woman in videocall">
@@ -51,26 +61,31 @@
                 <img class="demo__img" src="./assets/desktop/image-man-texting.jpg" alt="Man texting">
             </div>
 
-            <div class="demo__text-wrapper">
-                <p class="demo__up-heading">Built for modern use</p>
-                <h2 class="demo__h2">Smarter meetings, all in one place</h2>
-                <p class="demo__text">Send messages, share files, show your screen, and record your meetings — all in one workspace. Control who can join with invite-only team access, data encryption, and data export.</p>
-            </div>
+            <p class="demo__up-heading">Built for modern use</p>
+            <h2 class="demo__h2">Smarter meetings, all in one place</h2>
+            <p class="demo__text">
+                <span>Send messages, share files, show your screen, and record your</span>
+                <span>meetings — all in one workspace. Control who can join with</span> 
+                <span>invite-only team access, data encryption, and data export.</span>
+            </p>
 
         </section>
     </main>
 
-    <footer class="footer">
 
-        <p class="num footer__num">02</p>
-        
-        <div class="footer__content-wrapper">
+
+    <footer class="footer">
+        <p class="footer__num demo__num">02</p>
+
+        <div class="footer__wrapper">
             <h2 class="footer__h2">Experience more together</h2>
             <p class="footer__text">Stay connected with reliable HD meetings and unlimited one-on-one and group video sessions.</p>
             <button class="btn btn--purple btn--big"><span>Download</span> <span class="btn--g">v1.3</span></button>
         </div>
 
     </footer>
+  
+
 
 </body>
 </html>

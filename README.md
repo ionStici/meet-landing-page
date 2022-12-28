@@ -11,20 +11,18 @@ This is a solution to the [Meet landing page challenge on Frontend Mentor](https
 
 ## Screenshot
 
-![](./screenshot.jpg)
+![](./screenshot)
 
 ## Links
 
--   [Solution URL](https://github.com/ionStici/)
--   [Live Site URL](https://ionstici.github.io/)
+-   [Solution URL](https://github.com/ionStici/meet-landing-page)
+-   [Live Site URL](https://ionstici.github.io/meet-landing-page)
 
 ## Built with
 
--   Semantic HTML5 markup
--   CSS custom properties
--   Flexbox
--   CSS Grid
 -   Sass (Scss)
+-   Semantic HTML5 markup
+-   Flexbox and CSS Grid
 
 ## What I learned
 
@@ -33,5 +31,3 @@ This is a solution to the [Meet landing page challenge on Frontend Mentor](https
 -   [GitHub](https://github.com/ionStici)
 -   [Frontend Mentor](https://www.frontendmentor.io/profile/ionStici)
 -   [Twitter](https://twitter.com/ionStici_)
-
-<br>
